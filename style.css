@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:fontana;
+    src: url('fontes/HeadingNowTrial-66BoldItalic.ttf');
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(39, 39, 93);
+    position: relative;
+}
+
+nav {
+    background-image: linear-gradient(to right, black 15%, blue, rgb(7, 7, 147));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+   
+}
+
+nav img{
+    width: 70px;
+    padding-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 0px;
+  
+}
+
+header{
+    background-image: url('imagens/pexels-tima-miroshnichenko-5327487.jpg');
+    height:110vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+header h1{
+    font-family:"fontana";
+    color: aliceblue;
+    padding-top: 400px;
+    padding-left: 100px;
+}
+
+main{
+    background-color: aliceblue;
+    max-width: 800px;
+    min-width: 250px;
+    margin: auto;
+}
+
+section.sec1{
+    height: 106vh;
+}
+
+section > img{
+    display: block;
+    margin: auto;
+    width: 500px;
+}
+
+section h2{
+    padding-top: 20px;
+    padding-left: 30px;
+    
+}
+
+section h3{
+    padding:10px 0px 10px 30px ;
+    
+}
+
+section.sec2{
+    height:58vh;
+}
+
+h1{
+    padding: 20px 0px 10px 10px;
+    font-size: 1.8em;
+}
+
+p{
+    padding: 10px;
+    text-align: justify;
+}
+
+ul{
+    padding-left: 30px;
+    line-height: 2em;
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+section.video{
+    position: relative;
+    padding-bottom: 56.25%; 
+}
+
+#frame> iframe{
+  position: absolute;
+  top: 70px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+    margin-top: 90px;
+    text-align: center;
+    height: 200px;
+    color: aliceblue;
+}
