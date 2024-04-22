@@ -125,7 +125,10 @@ section.video{
 
 footer{
     margin-top: 90px;
-    text-align: center;
-    height: 200px;
+    height: 50px;
     color: aliceblue;
+}
+
+footer p{
+    text-align: center;
 }
