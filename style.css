@@ -38,6 +38,13 @@ nav a{
   
 }
 
+nav a:hover{
+    text-decoration: underline;
+    transform: translate(0px, -3px);
+    transition: transform 0.3s;
+   
+}
+
 header{
     background-image: url('imagens/pexels-tima-miroshnichenko-5327487.jpg');
     height:110vh;
@@ -46,7 +53,7 @@ header{
 }
 
 header h1{
-    font-family:"fontana";
+    font-family:fontana, sans-serif;
     color: aliceblue;
     padding-top: 400px;
     padding-left: 100px;
@@ -69,13 +76,20 @@ section > img{
     width: 500px;
 }
 
+section h1{
+    font-family: fontana;
+    font-size: 1.5em;
+}
+
 section h2{
+    font-family: "fontana";
     padding-top: 20px;
     padding-left: 30px;
     
 }
 
 section h3{
+    font-family: fontana;
     padding:10px 0px 10px 30px ;
     
 }
